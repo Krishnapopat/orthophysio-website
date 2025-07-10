@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  <g transform="translate(200,150)">
+    <rect x="-60" y="-40" width="120" height="80" fill="#e5e7eb" stroke="#d1d5db" stroke-width="2" rx="8"/>
+    <circle cx="-30" cy="-15" r="8" fill="#d1d5db"/>
+    <polygon points="-45,-5 -25,-5 -35,10" fill="#d1d5db"/>
+    <polygon points="5,-5 45,-5 25,10 15,10" fill="#d1d5db"/>
+    <text x="0" y="60" text-anchor="middle" fill="#9ca3af" font-family="Arial, sans-serif" font-size="14">
+      Physiotherapy Equipment
+    </text>
+  </g>
+</svg>
