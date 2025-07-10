@@ -99,28 +99,6 @@ The contact form uses [Resend](https://resend.com) for reliable email delivery.
 - **Clickable phone and email links**
 - **Form validation** and error handling
 
-## 🌍 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. **Push to GitHub**
-   ```bash
-   git add .
-   git commit -m "Ready for deployment"
-   git push origin main
-   ```
-
-2. **Deploy on Vercel**
-   - Go to [vercel.com](https://vercel.com)
-   - Import your GitHub repository
-   - Add environment variable: `RESEND_API_KEY`
-   - Deploy!
-
-### Environment Variables for Production
-```env
-RESEND_API_KEY=your_production_resend_api_key
-```
-
 ## 📁 Project Structure
 
 ```
@@ -167,30 +145,6 @@ OrthoPhysio Equipments is a trusted manufacturer of high-quality physiotherapy e
 📱 **Phone:** +91 9824276125, +91 9426984196  
 📧 **Email:** bhavinpopat2007@gmail.com  
 📍 **Address:** C-19/20 Jalanand Township, Gorwa Refinery Road, Vadodara, Gujarat - 390016, India
-
-## 🤝 Contributing
-
-We welcome contributions to improve the website! Please feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your improvements
-4. Submit a pull request
-
-## 📄 License
-
-This project is proprietary software owned by OrthoPhysio Equipments. All rights reserved.
-
-## 🆘 Support
-
-If you encounter any issues or need assistance:
-
-1. Check the browser console for error messages
-2. Verify environment variables are correctly set
-3. Ensure the development server is restarted after adding API keys
-4. Contact us directly for business inquiries
-
----
 
 **Built with ❤️ for healthcare professionals**
 
