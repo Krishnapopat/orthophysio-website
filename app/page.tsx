@@ -194,7 +194,7 @@ const products = [
       "Post-fracture therapy",
       "Range of motion exercises",
     ],
-    image: "/equipment/image copy 3.png",
+    image: "/equipment/image copy 33.png",
     category: "Upper Limb",
   },
   {
