@@ -925,7 +925,7 @@ export default function HomePage() {
                         <User className="w-6 h-6 text-blue-600" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900">Company Owner</h4>
+                        <h4 className="font-semibold text-gray-900">Company Proprietor</h4>
                         <p className="text-gray-600">Nila Popat</p>
                         <p className="text-gray-600">+91 9510274131</p>
                       </div>
