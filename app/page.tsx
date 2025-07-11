@@ -4,7 +4,7 @@ import React, { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Phone, Mail, MapPin, Star, Award, Users, Wrench, Send, CheckCircle, AlertCircle } from "lucide-react"
+import { Phone, Mail, MapPin, Star, Award, Users, Wrench, Send, CheckCircle, AlertCircle, User, Stethoscope } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { ProductCard } from "@/components/product-card"
@@ -917,6 +917,29 @@ export default function HomePage() {
                           <br />
                           India
                         </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <User className="w-6 h-6 text-blue-600" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900">Company Owner</h4>
+                        <p className="text-gray-600">Nila Popat</p>
+                        <p className="text-gray-600">+91 9510274131</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Stethoscope className="w-6 h-6 text-blue-600" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900">Recommended Physiotherapist</h4>
+                        <p className="text-gray-600">Dr. Mauly Popat</p>
+                        <p className="text-gray-600 text-sm">Masters in Cardio Physiotherapy</p>
+                        {/* <p className="text-gray-600">+91 9408915063</p> */}
                       </div>
                     </div>
                   </div>
