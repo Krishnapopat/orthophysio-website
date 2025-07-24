@@ -38,7 +38,7 @@ export default function RootLayout({
         <meta name="msapplication-TileImage" content="/favicon-192x192.png?v=4" />
         <meta name="theme-color" content="#2563eb" />
         <meta name="google-site-verification" content="wPSPdYCkgLfOR-fAtUF5NnlG_mFAx-5nmw6WBAqNvMA" />
-
+        <meta name="msvalidate.01" content="EF0A678213914AC09D164202A164C82C" />
       </head>
       <body suppressHydrationWarning={true}>{children}</body>
     </html>
