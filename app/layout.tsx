@@ -37,6 +37,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/favicon-192x192.png?v=4" sizes="192x192" />
         <meta name="msapplication-TileImage" content="/favicon-192x192.png?v=4" />
         <meta name="theme-color" content="#2563eb" />
+        <meta name="google-site-verification" content="wPSPdYCkgLfOR-fAtUF5NnlG_mFAx-5nmw6WBAqNvMA" />
+
       </head>
       <body suppressHydrationWarning={true}>{children}</body>
     </html>
